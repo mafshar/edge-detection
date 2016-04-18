@@ -22,6 +22,11 @@ clone the repo in your working directory and type:
 . setup.sh
 ```
 
+NOTE: if python starts to make your terminal session act strangely, type this command in terminal (assuming you have macports installed):
+```bash
+sudo port selfupdate && sudo port clean python27 && sudo port install python27 +readline
+```
+
 
 More to come...
 
